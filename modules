@@ -1,0 +1,10 @@
+const names = require("./names");
+const sayHi = require("./utils");
+const extra = require("./extra-flavour");
+
+require("./mind-grenade");
+
+sayHi(extra.newPerson.name);
+sayHi("susan");
+sayHi(names.john);
+sayHi(names.peter);
